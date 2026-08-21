@@ -1,4 +1,4 @@
-# 01 — Data Understanding
+# 01 - Data Understanding
 
 ## 1. First objective
 
@@ -50,7 +50,7 @@ These represent unit-level values and should generally be averaged when asking f
 
 ---
 
-## 3. Why aggregation matters
+## 3. Need of aggregation 
 
 A major modeling mistake would be to sum a per-unit price and interpret the result as a meaningful average price.
 
