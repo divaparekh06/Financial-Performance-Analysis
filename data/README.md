@@ -33,9 +33,13 @@ The financial dataset contains the following important fields used during analys
 
 ## Important field meanings
 
+### Revenue
+
+Money a business earns from selling its goods or services before subtracting operating expenses and other costs. (Price x Quantity)
+
 ### Units Sold
 
-Number of units sold in the record.
+Volume Metrics, number of units sold in the record.
 
 ### Manufacturing Price
 
@@ -51,23 +55,37 @@ Conceptually, sales revenue is related to units sold and selling price, while ma
 
 ### Gross Sales
 
-Sales value before the recorded discount.
+It represents sales before deductions such as discounts, returns and allowances.
 
 ### Discounts
 
-Discount amount applied to the gross sales value.
+Can be promotional, volume trade, seasonal or customer-specific discount.
 
 ### Sales
 
-Realized sales/revenue after discounts in the supplied financial dataset.
+Gross Sales - Deductions/Discounts
 
 ### COGS
 
 Cost of goods sold.
+They are the direct costs associated with producing or acquiring the goods. (Eg: Raw materials, direct labor, manufacturing cost)
+It doesn't include maketting, office rent, salaries etc.
 
-### Profit
+### Gross Profit
 
-Profit value provided by the dataset.
+Net sales- COGS. It tells us how much money remains after covering COGS.
+
+### Gross Profit Margin
+
+(Gross Profit/Revenue) x 100
+
+### Profit Margin
+
+(Profit/Revenue) x 100
+
+### Manufacturing Cost
+
+Cost associated with producing a product
 
 ### Discount Band
 
@@ -80,15 +98,20 @@ Categorical classification of discount intensity:
 
 ### Segment
 
-Business/customer segment.
+A segment groups customers based on some meaningful characteristics. Eg: Government, consumers, enterprise etc.
 
 ### Country
 
 Geographic market.
 
-### Product
+### Data Grain
 
-Product identifier/name.
+Grain means what does one record/row represents. Eg: one row: one order
+
+### Cost Vs. Expense
+
+Cost is the money spent to produce something.
+Expense is the cost that is recognized as an expense in the accounting period.
 
 ---
 
@@ -100,10 +123,4 @@ No unnecessary data-cleaning transformation was introduced merely for the sake o
 
 ---
 
-## Recommended repository handling
 
-If the dataset is permitted to be shared publicly, place the original workbook/CSV in this directory.
-
-If it is not permitted to be shared, **do not commit the dataset**. Keep only this documentation file and explain that the source data is course/institution-provided.
-
-The `.pbix` report may also be subject to course/institution sharing restrictions.
