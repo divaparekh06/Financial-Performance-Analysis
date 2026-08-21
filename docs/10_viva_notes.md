@@ -173,23 +173,3 @@ Carretera is the weakest Enterprise product by total profit, and its largest ide
 It is therefore a priority for deeper investigation.
 
 ---
-
-## Presentation storyline
-
-Use this sequence:
-
-1. Introduce the objective.
-2. Show Page 1.
-3. Explain the overall KPIs.
-4. Point out Enterprise's negative margin.
-5. Move to Page 2.
-6. Select Enterprise.
-7. Show all six products are negative.
-8. Show countries remain negative.
-9. Show margin declines with discount.
-10. Show actual profit losses.
-11. Show high-discount sales volume.
-12. Show Carretera as the weakest product.
-13. Move to Page 3.
-14. Present recommendations.
-15. Explicitly state that association does not prove causation.
