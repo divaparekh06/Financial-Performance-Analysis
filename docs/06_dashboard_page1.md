@@ -1,4 +1,4 @@
-# 06 — Page 1: Executive Overview
+# 06 - Page 1: Executive Overview
 
 ## Purpose
 
@@ -55,7 +55,7 @@ filters the entire analytical page to the selected context.
 
 ---
 
-## Visual 1 — Sales & Profit Trend
+## Visual 1 - Sales & Profit Trend
 
 Purpose:
 
@@ -73,7 +73,7 @@ Analytical lesson:
 
 ---
 
-## Visual 2 — Sales & Profit by Country
+## Visual 2 - Sales & Profit by Country
 
 Purpose:
 
@@ -87,7 +87,7 @@ This visual supports questions such as:
 
 ---
 
-## Visual 3 — Profit Margin by Segment
+## Visual 3 - Profit Margin by Segment
 
 Purpose:
 
@@ -101,7 +101,7 @@ The visual uses red to emphasize the negative Enterprise result.
 
 ---
 
-## Visual 4 — Sales & Profit by Product
+## Visual 4 - Sales & Profit by Product
 
 Purpose:
 
@@ -111,7 +111,7 @@ This visual helps distinguish high-sales products from high-profit products.
 
 ---
 
-## Visual 5 — Profit Margin by Discount Band
+## Visual 5 - Profit Margin by Discount Band
 
 Purpose:
 
@@ -123,19 +123,6 @@ This became the starting point for the Enterprise profitability investigation on
 
 ---
 
-## Design system
-
-The report uses:
-
-- Blue for Sales
-- Dark blue for Profit
-- Green for positive profitability
-- Red for negative profitability
-- Orange for discount-related emphasis
-
-The global theme provides consistency while specific profitability visuals receive additional formatting.
-
----
 
 ## Page 1 analytical role
 
