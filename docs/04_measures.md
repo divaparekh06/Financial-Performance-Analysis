@@ -1,4 +1,4 @@
-# 04 — Measures and Calculations
+# 04 - Measures and Calculations
 
 ## 1. Total Sales
 
