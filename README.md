@@ -144,4 +144,4 @@ See [`data/README.md`](data/README.md) and [`screenshots/README.md`](screenshots
 
 ## Project status
 
-**Complete — analysis, dashboard construction, investigation, recommendations and documentation structure are ready.**
+**Complete: Analysis, dashboard construction, investigation, recommendations and documentation structure are ready.**
