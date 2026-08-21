@@ -1,26 +1,26 @@
-# 11 — Methodology and Limitations
+# 11 - Methodology and Limitations
 
 ## Methodology
 
 The project follows a descriptive-to-diagnostic analytical approach.
 
-### Stage 1 — Understand
+### Stage 1 - Understand
 
 Identify field meanings and aggregation behavior.
 
-### Stage 2 — Validate
+### Stage 2 - Validate
 
 Cross-check Power BI calculations against Excel.
 
-### Stage 3 — Explore
+### Stage 3 - Explore
 
 Examine time, country, product, segment and discount patterns.
 
-### Stage 4 — Identify anomaly
+### Stage 4 - Identify anomaly
 
 Enterprise emerges as the major profitability concern.
 
-### Stage 5 — Drill down
+### Stage 5 - Drill down
 
 Investigate Enterprise by:
 
@@ -31,11 +31,11 @@ Investigate Enterprise by:
 - sales volume
 - effective discount rate
 
-### Stage 6 — Synthesize
+### Stage 6 - Synthesize
 
 Identify Carretera and high discounts as priority areas.
 
-### Stage 7 — Recommend
+### Stage 7 - Recommend
 
 Create evidence-based actions without overstating causality.
 
@@ -81,7 +81,7 @@ This does not automatically explain why their economics differ.
 
 ## 5. Discount strategy may be intentional
 
-A high discount could be used strategically to:
+A high discount could be used to:
 
 - acquire customers
 - increase volume
