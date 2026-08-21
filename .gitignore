@@ -16,3 +16,7 @@ desktop.ini
 # Python
 __pycache__/
 *.pyc
+
+# Local backup / temporary files
+local-backup/
+temperory-files/

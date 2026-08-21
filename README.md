@@ -1,59 +1,147 @@
-# Financial Performance Analysis
+# Financial Performance Analysis — Power BI
 
-## Project Status
+An end-to-end financial data analytics project built from the provided **Financial Data** worksheet and developed in Microsoft Power BI.
 
-🚧 In Progress
+The project follows a complete analyst workflow:
 
-## Overview
+**Raw financial data → data understanding → validation → measures → exploratory analysis → dashboard → profitability investigation → insights → recommendations**
 
-This project analyzes a financial sales dataset using Microsoft Excel
-and Power BI to identify patterns in sales performance, profitability,
-discounting, product performance, geographic performance, and trends
-over time.
+The final Power BI report contains three pages:
 
-The project is being developed as a portfolio-oriented data analytics
-case study, with emphasis on analytical reasoning, data quality,
-financial validation, business insights, and dashboard design.
+1. **Executive Overview** — overall sales, profit, margin, products, countries, segments, discounts and trends.
+2. **Profitability Deep Dive** — investigation of the Enterprise segment and the relationship between discount intensity and profitability.
+3. **Key Insights & Recommendations** — concise executive summary of the findings and recommended actions.
 
-## Objectives
+---
 
-- Understand the structure and business meaning of the dataset
-- Perform systematic data profiling and quality assessment
-- Validate financial relationships within the dataset
-- Analyze sales and profitability across relevant dimensions
-- Develop an interactive Power BI dashboard
-- Generate actionable business insights and recommendations
-- Document the complete analytical workflow
+## Project objective
 
-## Tools
+The objective was not merely to create a collection of Power BI charts. The goal was to use the financial dataset to answer progressively deeper business questions:
 
-- Microsoft Excel
-- Power BI
-- Git
-- GitHub
+- How is overall financial performance changing?
+- Which countries, products and segments contribute to sales and profit?
+- How does discounting relate to profitability?
+- Which segment requires the most attention?
+- Is the profitability problem isolated to a product or country?
+- What happens to Enterprise profitability as discount intensity increases?
+- Which Enterprise product is weakest?
+- What should management investigate or change?
 
-## Analytical Workflow
+---
 
-1. Business Understanding
-2. Data Understanding
-3. Data Profiling
-4. Data Quality Validation
-5. Financial Reconciliation
-6. Data Preparation
-7. Exploratory Analysis
-8. Data Modeling
-9. Dashboard Development
-10. Insight Generation
-11. Recommendations
-12. Documentation
+## Major finding
 
-## Repository Structure
+The central finding is that **Enterprise is the primary profitability concern**.
+
+Enterprise has an overall profit margin of approximately **−3.13%**. The problem is broad: all six Enterprise products have negative profit margins, and Enterprise remains unprofitable across the countries analyzed.
+
+The strongest observed relationship is between discount intensity and Enterprise profitability:
+
+| Discount Band | Enterprise Profit Margin |
+|---|---:|
+| None | +4.00% |
+| Low | +1.58% |
+| Medium | −3.03% |
+| High | −9.53% |
+
+Enterprise High-discount sales are approximately **6.5M**, making High the largest Enterprise sales bucket among the discount bands examined. High-discount Enterprise transactions also correspond to the largest profit losses.
+
+At the product level:
+
+- **Carretera** is the weakest Enterprise product by total profit.
+- **Montana** is the strongest Enterprise product by total profit.
+- Carretera's largest identified loss occurs under the **High** discount band.
+
+> Important analytical qualification: the report establishes a strong association between higher discount intensity and lower Enterprise profitability. It does **not** prove that discounting alone causes the losses.
+
+---
+
+## Overall dashboard values
+
+With all filters cleared, the report produced approximately:
+
+| KPI | Overall value |
+|---|---:|
+| Total Sales | 118.73M |
+| Total Profit | 16.89M |
+| Profit Margin | 14.23% |
+| Total Discounts | 9.21M |
+| Units Sold | 1.13M |
+
+For Enterprise:
+
+| KPI | Enterprise value |
+|---|---:|
+| Total Sales | 19.61M |
+| Total Profit | −614.55K |
+| Profit Margin | −3.13% |
+
+Values may display with minor rounding differences depending on Power BI formatting.
+
+---
+
+## Repository structure
 
 ```text
-dashboard/       Power BI dashboard screenshots and presentation assets
-data/            Dataset and processed analytical data
-documentation/   Detailed project documentation
-excel/           Excel-based analysis and data audit
-notes/           Learning notes and project log
-powerBI/         Power BI project files
-README.md        Project overview
+financial-performance-analysis/
+│
+├── README.md
+├── PROJECT_OVERVIEW.md
+├── CHANGELOG.md
+├── .gitignore
+│
+├── data/
+│   └── README.md
+│
+├── docs/
+│   ├── 01_data_understanding.md
+│   ├── 02_data_validation.md
+│   ├── 03_powerbi_setup.md
+│   ├── 04_measures.md
+│   ├── 05_exploratory_analysis.md
+│   ├── 06_dashboard_page1.md
+│   ├── 07_profitability_deep_dive.md
+│   ├── 08_key_insights_recommendations.md
+│   ├── 09_validation_qa.md
+│   ├── 10_viva_notes.md
+│   ├── 11_methodology_and_limitations.md
+│   └── DATA_DICTIONARY.md
+│
+├── powerbi/
+│   ├── DAX_MEASURES.md
+│   └── REPORT_BUILD_GUIDE.md
+│
+└── screenshots/
+    └── README.md
+```
+
+---
+
+## How to reproduce
+
+1. Open the supplied financial dataset.
+2. Use the **Financial Data** worksheet as the source worksheet.
+3. Validate the data types and core totals.
+4. Load the Financial Data worksheet into Power BI.
+5. Create the documented DAX measures.
+6. Build Page 1: Executive Overview.
+7. Build Page 2: Profitability Deep Dive.
+8. Build Page 3: Key Insights & Recommendations.
+9. Apply the documented theme and formatting.
+10. Validate the dashboard against the documented Excel checkpoints.
+11. Save the final `.pbix` file.
+12. Add the `.pbix` and approved screenshots to the repository if permitted by the course/institution.
+
+---
+
+## Repository note
+
+The original working repository was empty, so this repository is intentionally documentation-first. The actual `.pbix` file and source dataset are **not generated by this package** because they are binary/user-provided artifacts.
+
+See [`data/README.md`](data/README.md) and [`screenshots/README.md`](screenshots/README.md) for guidance on adding those artifacts.
+
+---
+
+## Project status
+
+**Complete — analysis, dashboard construction, investigation, recommendations and documentation structure are ready.**
