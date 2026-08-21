@@ -1,4 +1,4 @@
-# 02 — Data Validation
+# 02 - Data Validation
 
 ## Purpose
 
