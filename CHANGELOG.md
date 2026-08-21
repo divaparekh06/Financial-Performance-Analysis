@@ -1,6 +1,6 @@
 # Changelog
 
-## Final Version — Financial Performance Analysis
+## Final Version - Financial Performance Analysis
 
 ### Data and validation
 - Validated the Financial Data worksheet.
