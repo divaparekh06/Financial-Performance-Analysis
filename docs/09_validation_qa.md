@@ -1,4 +1,4 @@
-# 09 — Final Validation and QA
+# 09 - Final Validation and QA
 
 ## 1. Overall KPI validation
 
