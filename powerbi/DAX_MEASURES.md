@@ -56,37 +56,3 @@ DIVIDE(
     SUM('Financial Data'[Gross Sales])
 )
 ```
-
----
-
-# Why DIVIDE is used
-
-`DIVIDE()` is preferable to direct division for a reusable Power BI measure because it handles a zero denominator safely.
-
-For example:
-
-```DAX
-DIVIDE([Total Profit], [Total Sales])
-```
-
-is safer than:
-
-```DAX
-[Total Profit] / [Total Sales]
-```
-
----
-
-# Formatting
-
-Recommended formats:
-
-| Measure | Format |
-|---|---|
-| Total Sales | Currency/financial units, display in M/K |
-| Total Profit | Currency/financial units, display in M/K |
-| Total Discounts | Currency/financial units, display in M/K |
-| Total Units Sold | Number, display in M/K |
-| Profit Margin % | Percentage, 1–2 decimals |
-| Average Sale Price | Currency/number, 1–2 decimals |
-| Discount Rate % | Percentage, 1–2 decimals |
