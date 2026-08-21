@@ -1,4 +1,4 @@
-# 07 — Page 2: Profitability Deep Dive
+# 07 - Page 2: Profitability Deep Dive
 
 ## Purpose
 
@@ -40,7 +40,7 @@ Units Sold was intentionally removed from this page because profitability-focuse
 
 ---
 
-## Visual 1 — Segment × Discount Band Profit Margin Matrix
+## Visual 1 - Segment × Discount Band Profit Margin Matrix
 
 Rows:
 
@@ -54,11 +54,6 @@ Values:
 
 `Profit Margin %`
 
-Conditional formatting:
-
-- negative → red
-- low → warm/intermediate
-- stronger positive → green
 
 The Enterprise row is the key diagnostic pattern:
 
@@ -69,7 +64,7 @@ The Enterprise row is the key diagnostic pattern:
 
 ---
 
-## Visual 2 — Profit Margin by Product
+## Visual 2 - Profit Margin by Product
 
 Purpose:
 
@@ -85,7 +80,7 @@ Carretera is still the weakest product by total profit.
 
 ---
 
-## Visual 3 — Profit Margin by Country
+## Visual 3 - Profit Margin by Country
 
 Purpose:
 
@@ -99,7 +94,7 @@ Conclusion:
 
 ---
 
-## Visual 4 — Enterprise Profit by Discount Band
+## Visual 4 - Enterprise Profit by Discount Band
 
 This visual uses:
 
@@ -121,7 +116,7 @@ This confirms that the margin deterioration corresponds to actual profit deterio
 
 ---
 
-## Visual 5 — Enterprise Sales by Discount Band
+## Visual 5 - Enterprise Sales by Discount Band
 
 Fields:
 
@@ -138,7 +133,7 @@ This matters because the largest losses occur in a category that also represents
 
 ---
 
-## Visual 6 — Discount Rate by Discount Band
+## Visual 6 - Discount Rate by Discount Band
 
 Measure:
 
@@ -155,7 +150,7 @@ This provides quantitative context for the discount-band categories.
 
 ---
 
-## Visual 7 — Product × Discount Band Profit Matrix
+## Visual 7 - Product × Discount Band Profit Matrix
 
 Rows:
 
